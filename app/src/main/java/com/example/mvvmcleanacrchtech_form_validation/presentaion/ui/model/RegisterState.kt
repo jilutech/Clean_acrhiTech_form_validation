@@ -7,7 +7,7 @@ data class RegisterState(
     val passwordError : String? = null,
     val repeatedPassword : String = "",
     val repeatedPasswordError : String? =null,
-    val acceptedTerms : Boolean = false,
-    val termError : String ? = null
+    val acceptedTerms: Boolean = false,
+    val termsError: String? = null
 
 )
